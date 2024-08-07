@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/app.js"></script>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="containerTitulo">
+            <img src="./logo-lcaba.png" alt="" class="logoCaba">
+        </div>
+    </header>
+    <main class="main">
+        <h2 class="subTitulo"></h2>
+        <div class="containerBotones">
+            <button class="boton" id="biblio">
+                <img src="./biblioteca-en-linea.png" alt="" class="logo-bano">
+                BIBLIOTECA PARLANTE
+                <audio src="./biblio-audio.mp3" id="audio"></audio>
+            </button>
+            <button onclick="mostrarAlerta1()" class="boton" id="medico">
+                <img src="./simbolo-medico.png" alt="" class="logo-bano">
+                SERVICIO MEDICO
+            </button>
+            <button onclick="mostrarAlerta2()" class="boton" id="bano">
+                <img src="./bano.png" alt="" class="logo-bano">
+                BAÑOS ACCESIBLES
+            </button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
