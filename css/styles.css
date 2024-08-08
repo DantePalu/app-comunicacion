@@ -2,19 +2,22 @@
     font-size: 40px;
     margin: 5px;
     padding: 10px 20px;
-    background-color: rgb(127, 51, 225);
-    color: white;
+    background-color: rgb(135, 69, 223);
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .boton:hover{
-    background-color: #c576d6;
+    background-color: #c076d6;
 }
 .containerTitulo{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .accesibilidad{
     height: 150px;
@@ -45,7 +48,8 @@
 
 .containerBotones{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    flex-direction:column;
 }
 .btn {
     padding: 10px 20px;
